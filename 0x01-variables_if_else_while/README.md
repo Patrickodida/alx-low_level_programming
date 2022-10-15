@@ -1,1 +1,1 @@
-printing alphabet in lowercase followed by new line
+printing single digit numbers of base 10 starting from o
