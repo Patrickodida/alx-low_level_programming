@@ -1,1 +1,1 @@
-printing single digit numbers of base 10 starting from o
+printing numbers base 10
