@@ -1,1 +1,1 @@
-printing possible combinations of single digit numbers
+printing last digit of a number
