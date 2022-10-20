@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * more_numbers - prints x10 numbers 0 to 14
