@@ -4,7 +4,7 @@
  * print_diagonal - prints a diagonal line
  * @n: number of times a char prints
  *
- * Return void
+ * Return: void
  */
 
 void print_diagonal(int n)
