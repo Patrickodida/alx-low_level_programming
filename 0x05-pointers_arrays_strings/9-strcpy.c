@@ -5,17 +5,18 @@
  * @dest: char to check
  * @src: char to check
  *
- * Return: 0 success
+ * Return: string
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = -1;
-	do{
-		int i = -1;
-		dest[i] = src[i];
-	}
-	while (src[i] != '\0');
+	int len = 0;
 
+	while (*(src + len) != '\0')
+	{
+		*(dest + len) = *(src + len);
+		len++;
+	}
+	*(dest + len) = '\0';
 	return (dest);
 }
