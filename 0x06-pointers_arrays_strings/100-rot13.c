@@ -2,12 +2,12 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @src: the string to be encoded
+ * @str: the string to be encoded
  *
  * Return: pointer to the encoded string
  */
 
-char *rot13(char *src)
+char *rot13(char *str)
 {
 	int indx1 = 0, indx2;
 	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
